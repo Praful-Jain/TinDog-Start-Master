@@ -1,0 +1,178 @@
+#title{
+    background-color: #ff4c68;
+    color: white;
+}
+
+body{
+    font-family: "Ubuntu";
+}
+
+.container-fluid{
+    padding: 3% 15% 7% 15%;     /*top right bottom left*/
+ 
+}
+h1{
+    padding-top: 10px;
+    font-family: "Montserrat";
+    font-size: 3.5rem;
+    line-height: 1.5;
+    color: white;
+}
+
+h2{
+    font-family: "Ubuntu";
+    font-weight: bolder;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+h3{
+    font-family: "Ubuntu";
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+p{
+    color: grey;
+}
+/* Navigation Bar */
+
+.navbar{
+    padding-bottom: 4.5rem;
+}
+
+.navbar-brand{
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item{
+    padding: 0 18px;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+}
+
+.download-button{
+    margin: 5% 3% 5% 0%;
+}
+
+.title-img{
+    padding-top: 40px;
+    width: 20% ;
+    position: absolute;     /*position is absolute wrt superclass */
+    transform: rotate(20deg);
+    right: 25%;
+   }
+
+
+/* Features Section */
+#features{
+    background-color: #fff;
+    padding:7% 15%;
+    position: relative;
+    z-index: 1;     /* used to place something on the top or bottom*/
+    }
+
+.feature-box{
+    padding: 5%;
+    text-align: center;
+}
+
+.icon       
+{
+    padding-bottom: 10px;
+    color: #ef8172;
+}
+
+.icon:hover{
+    color: #ff4c68;        
+}
+
+/* Testimonials Section*/
+
+#testimonials
+{
+    
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+}
+
+.testimonials-img{
+    width: 20%;
+    margin: 20px;
+    border-radius: 100%;
+}
+
+.carousel-item{
+    padding:7% 15%;
+}
+
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-img{
+    width: 15%;
+    margin: 20px 20px 50px 20px;
+}
+
+/* Pricing section */
+
+#pricing{
+    text-align: center;
+    padding: 7% 15%;
+}
+
+.pricing-column {
+    padding: 3% 2%;
+}
+
+.signup-btn{
+    padding:1% 30%;
+}
+
+/* Call to Action */
+#cta{
+    text-align: center;
+    padding: 6% 15%;
+    background-color: #ff4c68;
+    color: white;
+}
+
+.cta-heading{
+    font-family: "Montserrat";
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+/* Footer */
+#footer{
+    padding: 5% 10%;
+    text-align: center;
+}
+
+.social-icon {
+    margin: 0% .5%;
+}
+
+/* CSS Breakpoints,Media queries, some conditions*/
+@media (max-width: 1028px)  {
+    
+    /*condition for alignment of title section in mobile or table display*/
+    #title{
+        text-align: center;
+    }
+
+    /*condition for image in mobile or tablet display*/
+    .title-img{
+        width: 60%;
+        position: static;
+        transform: rotate(0);
+    }
+}
+
